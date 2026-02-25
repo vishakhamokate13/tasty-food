@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./style.css" />
-
-
 </head>
 <body>
     <h1>Contact Us</h1>
-    <nav aligh="center">
-     
-        <a href="index.html">Home</a>&nbsp;
-        <a href="about.html">About</a>&nbsp;
-        <a href="menu.html">Menu</a>&nbsp;
-        <a href="contact.html">Contact</a>
+    <nav>
+        <a href="../index.html">home</a> &nbsp; &nbsp;
+        <a href="./about.html">about</a> &nbsp; &nbsp;
+        <a href="./contact.html">contact</a> &nbsp; &nbsp;
+        <a href="./menu.html">menu</a>
     </nav>
-    <br><br>
+    <p>Feel free to reach out to us with any questions or feedback!</p>
 
-    <form>
-        Name: <input type="text"><br><br>
-        Email: <input type="email"><br><br>
-        Message: <textarea></textarea><br><br>
-        <img src="map.png" usemap="#imagemap" width="40%"><br><br>
-        <button class="btn btn-Submit">Submit</button>
+    <form action="#" method="post" class="contact-form">
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <label>Message:<br>
+            <textarea name="message" rows="5" cols="30" required></textarea>
+        </label><br><br>
+        <button type="submit">Submit</button>
     </form>
 
+    <h2>Our Location</h2>
+    <p>123 Food Street, Flavor Town, FT 45678</p>
 </body>
 </html>
